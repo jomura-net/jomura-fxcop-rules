@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rules FriendlyName="Jomura Custom Rules">
+  <Rule CheckId="JW0001"
+        TypeName="AvoidUsingHttpContextCurrent"
+        Category="Jomura.Design">
+    <Name>Avoid using HttpContext.Current</Name>
+    <Description>HttpContext.Current can't use in asynchronous call context.</Description>
+    <Url>http://jomura.net/svn/Jomura.FxCop.Rules</Url>
+    <Resolution>use Context proprety on System.Web.UI.Control and delived class (ex. Page, etc.)</Resolution>
+    <Email>kazuhiko@jomura.net</Email>
+    <MessageLevel Certainty="50">Warning</MessageLevel>
+    <FixCategories>Breaking</FixCategories>
+    <Owner>Kazuhiko Jomura(Personal)</Owner>
+  </Rule>
+</Rules>

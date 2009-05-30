@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalAssemblies", "ExternalAssemblies", "{A73F899C-082F-48A8-9D00-55122FFDDD7B}"
+	ProjectSection(SolutionItems) = preProject
+		ExternalAssemblies\FxCopSdk.dll = ExternalAssemblies\FxCopSdk.dll
+		ExternalAssemblies\Microsoft.Cci.dll = ExternalAssemblies\Microsoft.Cci.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{853D919D-79FC-433C-8064-4AF5DF919BE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Target", "Test.Target\Test.Target.csproj", "{30946EE5-44EE-4A7F-B41A-F4CEB0590407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jomura.FxCop.Rules", "Jomura.FxCop.Rules\Jomura.FxCop.Rules.csproj", "{FA7992CB-E6D2-49BF-9131-3DBDBB6F3131}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30946EE5-44EE-4A7F-B41A-F4CEB0590407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30946EE5-44EE-4A7F-B41A-F4CEB0590407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30946EE5-44EE-4A7F-B41A-F4CEB0590407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30946EE5-44EE-4A7F-B41A-F4CEB0590407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7992CB-E6D2-49BF-9131-3DBDBB6F3131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7992CB-E6D2-49BF-9131-3DBDBB6F3131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7992CB-E6D2-49BF-9131-3DBDBB6F3131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7992CB-E6D2-49BF-9131-3DBDBB6F3131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30946EE5-44EE-4A7F-B41A-F4CEB0590407} = {853D919D-79FC-433C-8064-4AF5DF919BE1}
+	EndGlobalSection
+EndGlobal
